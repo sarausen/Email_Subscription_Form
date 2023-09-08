@@ -1,0 +1,44 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+  
+  .container {
+	text-align: center;
+  }
+  
+  .subscription-form {
+	display: inline-block;
+  }
+  
+  .subscription-input {
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 250px;
+  }
+  
+  .subscription-button {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	width: 250px;
+  }
+  
+  .subscription-button:hover {
+	background-color: #666;
+  }
+  
+  .subscription-form p {
+	display: inline-block;
+	margin: 0;
+	margin-right: 4px;
+	color: #3e3e3e;
+	font-weight: bold;
+  }
+  
